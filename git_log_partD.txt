@@ -1,1 +1,39 @@
-Git Part D log for INF43 Assignment 3
+=== Part D Git Log ===
+commit e5518817c30a6edbc606ef72adf5e30abe7d061c
+Author: Tessalynn Trieu <tessalyt@uci.edu>
+Date:   Sun Nov 9 00:50:29 2025 -0800
+
+    Add Git log for Part D
+
+diff --git a/git_log_partD.txt b/git_log_partD.txt
+new file mode 100644
+index 0000000..4cb1357
+--- /dev/null
++++ b/git_log_partD.txt
+@@ -0,0 +1 @@
++Git Part D log for INF43 Assignment 3
+
+commit 0cd5e2b2b70a2939e5215c8eaeef6ea04f050d71
+Merge: 5c1cd51 e118eab
+Author: Tessalynn Trieu <tessalyt@uci.edu>
+Date:   Sun Nov 9 00:44:25 2025 -0800
+
+    Resolved merge conflict by including both hobbies
+
+commit e118eabc8644e91367e3c2f2a7313a552aa17e2a
+Author: Tessalynn Trieu <tessalyt@uci.edu>
+Date:   Sun Nov 9 00:42:54 2025 -0800
+
+    Added hobbies to file1.txt on feature branch
+
+diff --git a/file1.txt b/file1.txt
+index eaeba8b..50ac446 100644
+--- a/file1.txt
++++ b/file1.txt
+@@ -4,4 +4,4 @@ Favorite Movie: 10 Things I Hate About You
+ Favorite Color: Grey
+ 
+ My favorite hobby is shopping.
+-I also enjoy hanging out with my friends and listening to music.
++I also enjoy hanging out with my friends.
+\ No newline at end of file
